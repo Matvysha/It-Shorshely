@@ -5,10 +5,11 @@
 }
 
 .container {
-    width: 1728px;
+    max-width: 1728px;
 }
 
 .main-section {
+    min-width: 2000px;
     height: 2200px;
     background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
 }
@@ -153,6 +154,7 @@ header {
  /* Вторая секция */
 
 .second-section {
+    min-width: 2000px;
     height: 700px;
     background-color: #161616;
 }
@@ -181,6 +183,7 @@ header {
  /* Третья секция */
 
 .third-section {
+    min-width: 2000px;
     min-height: 1500px;
     background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
 }
@@ -241,6 +244,7 @@ header {
 }
 
 .four-section {
+    min-width: 2000px;
     min-height: 700px;
     background-color: #161616ef;
 }
@@ -323,6 +327,7 @@ header {
 }
 
 .footer-distributed {
+    min-width: 2000px;
     background-color: #161616;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
