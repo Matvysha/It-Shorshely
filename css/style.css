@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 .container {
     max-width: 1728px;
 }
@@ -20,6 +21,7 @@
 }
 
 .logo {
+    font-family: 'Roboto', sans-serif;
     color: white ;
     font-weight: 700px;
     font-size: 25px;
@@ -34,6 +36,7 @@ span {
 }
 
 .main-header li {
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     vertical-align: middle;
     margin-right: 51px;
@@ -69,6 +72,7 @@ header {
 }
 
 .left-text {
+    font-family: 'Roboto', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -100,6 +104,7 @@ header {
     line-height: 67px;
     color: #E0E0E0;
     margin-top: 59px;
+    width: 200px;
 }   
 
     /* Правая часть */
@@ -120,6 +125,7 @@ header {
     /*  Центр */
 
 .AboutMe-item {
+    font-family: 'Roboto', sans-serif;
     position: relative;
     top: -100px;
     font-weight: 700;
@@ -130,8 +136,8 @@ header {
 }
 
 .AboutMe-p { 
+    font-family: 'Roboto', sans-serif;
     position: relative;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
@@ -160,6 +166,7 @@ header {
 }
 
 .second-h2 {
+    font-family: 'Roboto', sans-serif;
     position: relative;
     width: 300px;
     font-weight: 700;
@@ -250,7 +257,9 @@ header {
 }
 
 .four-h2 {
+    text-align: center;
     position: relative;
+    right: 110px;
     top: 50px;
     font-family: 'Roboto';
     font-style: normal;
@@ -258,18 +267,19 @@ header {
     font-size: 49px;
     line-height: 57px;
     color: #70FF00;
-    text-align: center;
 }
 
 .four-p {
+    position: relative;
     font-family: 'Roboto';
     font-style: normal;
+    right: 20px;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 25px;
     line-height: 34px;
     color: #F2F2F2;
-    text-align: center;
     margin-top: 70px;
+    text-align: center;
 }
 
 .gradient-button {
